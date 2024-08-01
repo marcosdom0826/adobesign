@@ -3,7 +3,7 @@ import { NextApiRequest, NextApiResponse } from "next";
 const fs = require('fs');
 
 // File path of the JSON file
-const filePath = './data.json';
+const filePath = './Termite Estimate Form Template.json';
 
 
 export default function handler(req: NextApiRequest, res: NextApiResponse) {
